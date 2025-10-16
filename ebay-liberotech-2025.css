@@ -27,19 +27,21 @@ a:hover {
 
 /* HEADER */
 .header {
-  background: var(--color-dark);
-  color: #fff;
+  background: #ffffff;             /* sfondo bianco */
+  color: #2e2f2f;                  /* testo grigio scuro */
   padding: 25px 0;
   text-align: center;
+  border-bottom: 2px solid #f07d00; /* linea arancione brand */
 }
 
 .header img {
   max-width: 220px;
+  filter: none;                    /* nessuna modifica al logo */
 }
 
 /* INFO BAR */
 .infobar {
-  background: var(--color-primary);
+  background: #f07d00;             /* arancione brand */
   color: #fff;
   text-align: center;
   padding: 10px 0;
